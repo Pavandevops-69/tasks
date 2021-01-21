@@ -1,0 +1,13 @@
+18-1-21 -----  installation Of Bastion EC2, 
+                                              Jenkins EC2
+
+19-1-21 ----- Jenkins Installation --user credentials via Bastion 
+                      Login into Jenkins 
+
+
+20-1-21----Docker Installation 
+                  1)Create Images and 2) Host Static Website
+
+
+21-1-21-----Docker CI
+                   Interact with SCM    1)HTTPS
