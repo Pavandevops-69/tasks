@@ -1,4 +1,4 @@
-22-jan-2021 Task
+25-jan-2021 Task
 
 1)Create the local repo and push the repo to remote (SCM)
  
@@ -8,4 +8,18 @@ a) HTTPS
 
 b) SSH 
 
+26-jan-2021
+
+Container CI Process 
+
+Create inde.html image 
+Create Docker file 
+
+We can Add+Commit+Push code (Local repo -------> SCM)s
+
+CI Server(Jenkins)
+
+Update the Jenkins SSH Keys to SCM
+
+Connecting to github with SSH
 
