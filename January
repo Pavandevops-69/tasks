@@ -29,3 +29,17 @@ Practice on Jenkins and Docker ( To Create Images , Create Static Web-site, Remo
 
 Connecting to github with SSH
 
+28-jan-2021
+
+A))))    Create EC2 and ADD EBS volume 50GB 
+1) Create Physical Volume(PV) ------ [pvcreate  /dev/xvdb ] using this command
+2)create volume group(vg) ------- [ vgcreate pavan /dev/xvdb ] using this command
+3)create logical volume(lv) ------- [ lvcreate -L 5GB -n pavan1 vg1] using this command
+4)create file system to all -------- [ mkfs -t ext4 /dev/vg1/lv1 ] using this command
+5)create folder with name ------- [ mkdir EBS or Pavan ] using this command
+6)To give Access to Directory ------ [ mount /dev/vg1/lv1 ( lvm --- folder name ) ] using this command
+7) lsblk ---------- It is used in Linux
+Lsblk is used to display details about block devices and these block devices(Except ram disk)
+
+B))))     Create Index.html page and upload image with in index.html page 
+
