@@ -43,3 +43,27 @@ Lsblk is used to display details about block devices and these block devices(Exc
 
 B))))     Create Index.html page and upload image with in index.html page 
 
+
+2-2-2021
+
+i) CI On Jenkins With RED HAT OS
+  
+      AWS CLI Intallation ,because we take Red Hat OS
+
+In Build time ,Im getting the error was it taken python build tool other than Maven
+
+3-2-2021,& 4-2-2021
+
+CI on Jenkins with Amazon Linux 2 OS
+
+SSH password less setup between Jenkins & Tomcat
+
+war file build with maven 
+
+upload war file in s3
+
+5-2-2021
+
+Rename WAR file and upload into s3 with artifactID
+
+Enable the Webhooks plugin for the jenkins  ---   Used for automatic Triggering  b/w SCM & Jenkins 
