@@ -67,3 +67,23 @@ upload war file in s3
 Rename WAR file and upload into s3 with artifactID
 
 Enable the Webhooks plugin for the jenkins  ---   Used for automatic Triggering  b/w SCM & Jenkins 
+
+6-2-2021
+
+K8 Introduction
+
+Orchestration ---  To manage multiple nodes and to manage multiple containers
+
+Master -- 1) API server (Authentication,
+                                     Authorization)
+                2)  Scheduler ( It schedules the selected nodes for POD Deployment)
+
+                 3) etcd    ( date base --- Key value pair database)
+
+                 4) Controllers ( Pod/node/service/autoscale.etc)
+       
+                 5) Kubectl ( Client ) home directory/.kube/config --- It allows you to perform every possible Kubernetes operation
+     
+Worker Node -- 1) Kubelet agent  ---- The kubelet is the primary "node agent" that runs on each node
+                     
+                          2)Kube-proxy ----- kube-proxy maintains network rules on nodes. These network rules allow network communication to your Pods from network sessions inside or outside of your cluster.
